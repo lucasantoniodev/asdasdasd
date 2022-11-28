@@ -62,8 +62,8 @@ export const Routers: React.FC<RoutersProps> = (): JSX.Element => {
               // element={<DeleteDigitalContent />}
             />
             <Route path="testeGuide" element={<GuidePage />} />
-            <Route path="*" element={<Error />} />
           </Route>
+          <Route path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
     </>
